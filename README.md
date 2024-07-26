@@ -7,14 +7,12 @@ The Task Management App is a web application designed to help users manage their
 - Create, read, update, and delete tasks
 - Mark tasks as completed or pending
 - Filter tasks based on status
-- User authentication and authorization
 - Responsive design for mobile and desktop use
 
 ## Technologies Used
 - **Backend**: Django, Django REST Framework
-- **Frontend**: React, Redux
+- **Frontend**: React
 - **Database**: SQLite (default, can be changed to PostgreSQL, MySQL, etc.)
-- **Other**: Docker, Nginx
 
 ## Installation
 
@@ -22,7 +20,6 @@ The Task Management App is a web application designed to help users manage their
 - Python 3.x
 - Node.js
 - npm or yarn
-- Docker (optional, for containerization)
 
 ### Backend Setup
 1. Clone the repository:
@@ -72,16 +69,6 @@ The Task Management App is a web application designed to help users manage their
 1. Open your web browser and go to `http://localhost:8000` to access the backend API.
 2. Go to `http://localhost:3000` to access the frontend application.
 
-## Docker Setup (Optional)
-1. Build and run the Docker containers:
-    ```sh
-    docker-compose up --build
-    ```
-
-2. Access the application:
-    - Backend API: `http://localhost:8000`
-    - Frontend: `http://localhost:3000`
-
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
@@ -93,9 +80,6 @@ Contributions are welcome! Please follow these steps:
 4. Commit your changes (`git commit -m 'Add new feature'`)
 5. Push to the branch (`git push origin feature-branch`)
 6. Open a pull request
-
-## Contact
-For any inquiries, please contact [Shukla Shivangi](mailto:shukla3shivangi@gmail.com).
 
 ---
 
