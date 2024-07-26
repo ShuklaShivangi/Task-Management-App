@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.bg{
+  background-color: rgb(27, 77, 72);
+}
+
+.todo-title {
+  cursor: pointer;
+}
+
+.completed-todo {
+  text-decoration: line-through;
+}
+
+.tab-list > span {
+  padding: 5px 8px;
+  border: 1px solid  rgb(27, 77, 72);
+  border-radius: 10px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.tab-list > span.active {
+  background-color: rgb(27, 77, 72);
+  color: #fff;
+}
+
+.btn-spacing {
+  margin-right: 10px;
+}
+
+.description-box {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
