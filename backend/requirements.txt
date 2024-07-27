@@ -17,7 +17,7 @@ crispy-bootstrap4==2024.1
 cycler==0.12.1
 defusedxml==0.7.1
 distlib==0.3.8
-Django==4.2.x
+Django==4.2.11
 django-allauth==0.40.0
 django-celery-results==2.5.1
 django-cleanup==8.1.0
